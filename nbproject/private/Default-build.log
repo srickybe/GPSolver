@@ -1,0 +1,9 @@
+/usr/bin/g++   -c  "/home/john/Programming/C++/GPSolver/main.cpp" -O2 -Wall -DNDEBUG  -o ./Release/main.cpp.o -I. -I. 
+/usr/bin/g++   -c  "/home/john/Programming/C++/GPSolver/Chromosome.cpp" -O2 -Wall -DNDEBUG  -o ./Release/Chromosome.cpp.o -I. -I. 
+/usr/bin/g++   -c  "/home/john/Programming/C++/GPSolver/Util.cpp" -O2 -Wall -DNDEBUG  -o ./Release/Util.cpp.o -I. -I. 
+/usr/bin/g++   -c  "/home/john/Programming/C++/GPSolver/LCEBFitness.cpp" -O2 -Wall -DNDEBUG  -o ./Release/LCEBFitness.cpp.o -I. -I. 
+/usr/bin/g++   -c  "/home/john/Programming/C++/GPSolver/LCEBEvaluation.cpp" -O2 -Wall -DNDEBUG  -o ./Release/LCEBEvaluation.cpp.o -I. -I. 
+/usr/bin/g++   -c  "/home/john/Programming/C++/GPSolver/LeCompteEstBon.cpp" -O2 -Wall -DNDEBUG  -o ./Release/LeCompteEstBon.cpp.o -I. -I. 
+/usr/bin/g++   -c  "/home/john/Programming/C++/GPSolver/GPSolver.cpp" -O2 -Wall -DNDEBUG  -o ./Release/GPSolver.cpp.o -I. -I. 
+/usr/bin/g++   -c  "/home/john/Programming/C++/GPSolver/PopulationParameters.cpp" -O2 -Wall -DNDEBUG  -o ./Release/PopulationParameters.cpp.o -I. -I. 
+/usr/bin/g++  -o ./Release/GPSolver @"GPSolver.txt" -L.   
